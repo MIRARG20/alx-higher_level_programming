@@ -4,4 +4,4 @@ for letter in range(90, 64, -1):
         i = 32
     else:
         i = 0
-    print(chr(letter+i), end="")
+    print(f"{chr(letter+i)}", end="")
